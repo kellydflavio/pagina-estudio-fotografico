@@ -1,0 +1,51 @@
+@media(max-width: 624px){
+    .cabecalho{
+        justify-content: center;
+    }
+}
+
+.cabecalho.logo{
+    margin-bottom: 30px;
+
+}
+
+.cabecalho .navegacao .menu .item a{
+    font-size: calc(0.41em + 1vw);
+    
+}
+
+@media(max-width: 900px){
+    .conteudo-principal .paineis{
+        height: 500px;
+
+    }
+}
+
+@media(max-width: 1200px){
+    .sobre-mim .conteudo{
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 30px;
+    }
+
+.sobre-mim .conteudo .imagem{
+    display: none;
+}
+
+    .sobre-mim .conteudo .informacoes{
+        width: 100%;
+    }
+}
+
+@media( max-width: 440px){
+    .rodape .navegacao{
+        justify-content: center;
+        align-items: center;
+     }
+
+    .rodape .navegacao .logo{
+        margin-bottom: 30px;
+        justify-content: center;
+        
+    }
+}
